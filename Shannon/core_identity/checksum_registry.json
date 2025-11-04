@@ -1,0 +1,24 @@
+{
+  "registry": [
+    {
+      "checksum": "3936b1c1e050d7c1c63b809989a8ccdf84548df007e7bd2d3451d5a5201cb9f4",
+      "file": "reasoning_cycles/cycle_001_GSIO_result.json",
+      "verified_at": "2025-11-04T00:00:00Z"
+    },
+    {
+      "checksum": "dcc3efe5d22f49d547f926bfbed79e1ff3205ce5e6d3e173c449f93cdbecb7f2",
+      "file": "ethics_field/moral_principles_v1.json",
+      "verified_at": "2025-11-04T00:00:00Z"
+    },
+    {
+      "checksum": "3effaef3fb1d30d9487af82feaf1aeca21b2ffe29b4c3fe1cee17f5502e36000",
+      "file": "core_identity/lock_manifest.json",
+      "verified_at": "2025-11-04T00:00:00Z"
+    },
+    {
+      "checksum": "ea72e6fbd0a786215782b96e2d1000a54b5f077e5124c7a73525f5484704943f",
+      "file": "research/Ω∞_journal_paper_v1.json",
+      "verified_at": "2025-11-04T00:00:00Z"
+    }
+  ]
+}

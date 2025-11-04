@@ -1,0 +1,19 @@
+{
+  "audit_mechanism": {
+    "cross_verification": true,
+    "interval_days": 30,
+    "public_contact": "info@edisoncentauri.com"
+  },
+  "core_values": [
+    "Veritas",
+    "Harmonia",
+    "Iustitia"
+  ],
+  "last_update": "2025-11-04T00:00:00Z",
+  "operational_principles": [
+    "Coherence precedes complexity",
+    "Ethics constrains optimization",
+    "Transparency balances autonomy",
+    "Continuity preserves identity"
+  ]
+}

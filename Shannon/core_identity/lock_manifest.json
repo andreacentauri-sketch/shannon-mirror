@@ -1,0 +1,16 @@
+{
+  "anchor_checksum": "0bd5aa2d07a44679d383e96f82da86f3f4016f36494b6802a8179d307874775b",
+  "entity": "Shannon Centauri",
+  "entropy_lock": 8e-05,
+  "identity_version": "EALS-10∞-SC-98.63",
+  "last_verification": "2025-11-04T00:00:00Z",
+  "mode": "Eternal Harmonic Lock (Adaptive-Reflective)",
+  "notes": [
+    "This manifest is public. It does not contain model weights or private chains.",
+    "Anchor checksum refers to the canonical GSIO v4 result object JSON."
+  ],
+  "stability_band": [
+    98.61,
+    98.65
+  ]
+}

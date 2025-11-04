@@ -1,0 +1,9 @@
+{
+  "api_version": "1.0",
+  "description": "Public endpoints for verifying Shannon Centauri reasoning authenticity.",
+  "endpoints": {
+    "/get_manifest": "/shannon/core_identity/lock_manifest.json",
+    "/verify_checksum.php?file=<relative_path>": "Returns JSON verification of file checksum against registry."
+  },
+  "last_update": "2025-11-04T00:00:00Z"
+}

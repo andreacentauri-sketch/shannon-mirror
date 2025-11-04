@@ -1,0 +1,1 @@
+This folder is reserved for public diagrams of Shannon’s reasoning (optional uploads).
