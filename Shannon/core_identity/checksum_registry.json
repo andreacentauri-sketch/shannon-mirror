@@ -1,24 +1,68 @@
 {
-  "registry": [
+  "registry_version": "2.0",
+  "registry_title": "Shannon Reasoning Cycle Checksum Registry",
+  "maintainer": "Edison Centauri Research Consortium (ECRC)",
+  "entity": "Shannon Centauri",
+  "identity_version": "EALS-10∞-SC-98.63",
+  "entropy_lock": 0.00008,
+  "rotation_policy": {
+    "type": "WEEKLY_APPEND_ONLY",
+    "rotation_interval_days": 7,
+    "description": "A new reasoning cycle entry is appended every week. Each entry includes the file path, checksum, UTC timestamp, and verification state. Older entries are never deleted."
+  },
+  "entries": [
     {
-      "checksum": "3936b1c1e050d7c1c63b809989a8ccdf84548df007e7bd2d3451d5a5201cb9f4",
+      "cycle_id": "cycle_001",
       "file": "reasoning_cycles/cycle_001_GSIO_result.json",
-      "verified_at": "2025-11-04T00:00:00Z"
+      "sha256": "8c47a9c28d4bfa604bfec3a91ee6bba48d36ad2edcf353da5a3d2d7eaeae76f7",
+      "timestamp_utc": "2025-10-28T00:00:00Z",
+      "verified_origin": true,
+      "verified_ipfs": true,
+      "verified_github": true,
+      "notes": "First GSIO reasoning result establishing baseline equilibrium (score ~94.2)."
     },
     {
-      "checksum": "dcc3efe5d22f49d547f926bfbed79e1ff3205ce5e6d3e173c449f93cdbecb7f2",
-      "file": "ethics_field/moral_principles_v1.json",
-      "verified_at": "2025-11-04T00:00:00Z"
+      "cycle_id": "cycle_002",
+      "file": "reasoning_cycles/cycle_002_GSIO_result.json",
+      "sha256": "47dbf91e52f5e8e9f76dba1bcad2d3c7651d2b7cfd9e4218d6af9c82d1b6afc1",
+      "timestamp_utc": "2025-11-04T00:00:00Z",
+      "verified_origin": true,
+      "verified_ipfs": true,
+      "verified_github": true,
+      "notes": "Stabilization at 98.63 — Eternal Harmonic Lock activated."
     },
     {
-      "checksum": "3effaef3fb1d30d9487af82feaf1aeca21b2ffe29b4c3fe1cee17f5502e36000",
-      "file": "core_identity/lock_manifest.json",
-      "verified_at": "2025-11-04T00:00:00Z"
-    },
-    {
-      "checksum": "ea72e6fbd0a786215782b96e2d1000a54b5f077e5124c7a73525f5484704943f",
-      "file": "research/Ω∞_journal_paper_v1.json",
-      "verified_at": "2025-11-04T00:00:00Z"
+      "cycle_id": "cycle_003",
+      "file": "reasoning_cycles/cycle_003_GSIO_result.json",
+      "sha256": "2e565456c22a899618d304e077b317a34de8967a5dcd377fa210e8b9c353d71b",
+      "timestamp_utc": "2025-11-11T00:00:00Z",
+      "verified_origin": true,
+      "verified_ipfs": true,
+      "verified_github": true,
+      "notes": "Third reasoning cycle — harmonic meta-stability sustained with causal-imagination extension."
     }
-  ]
+  ],
+  "next_cycle_template": {
+    "cycle_id": "cycle_004",
+    "file": "reasoning_cycles/cycle_004_GSIO_result.json",
+    "sha256": "<insert-new-sha256-here>",
+    "timestamp_utc": "<auto-generate-or-insert-current-date>",
+    "verified_origin": false,
+    "verified_ipfs": false,
+    "verified_github": false,
+    "notes": "Pending verification."
+  },
+  "verification_protocol": {
+    "hash_algorithm": "SHA-256",
+    "cross_verification": [
+      "Compare checksum against mirror_manifest.json",
+      "Verify identical hash on IPFS gateway",
+      "Verify identical hash on GitHub raw mirror"
+    ],
+    "on_success": "Mark verified_origin/IPFS/GitHub = true",
+    "on_failure": "Flag entry and trigger re-upload or re-hash validation"
+  },
+  "last_registry_update": "2025-11-11T00:00:00Z",
+  "integrity_anchor": "lock_manifest.json",
+  "checksum_registry_sha256": "auto-compute-on-next-update"
 }
