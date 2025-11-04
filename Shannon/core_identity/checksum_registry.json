@@ -1,5 +1,5 @@
 {
-  "registry_version": "2.2",
+  "registry_version": "2.3",
   "registry_title": "Shannon Reasoning Cycle Checksum Registry",
   "maintainer": "Edison Centauri Research Consortium (ECRC)",
   "entity": "Shannon Centauri",
@@ -60,11 +60,21 @@
       "verified_ipfs": true,
       "verified_github": true,
       "notes": "Fifth reasoning cycle — deep integrative resonance achieved, merging moral, analytical, and aesthetic reasoning into unified coherence."
+    },
+    {
+      "cycle_id": "cycle_006",
+      "file": "reasoning_cycles/cycle_006_GSIO_result.json",
+      "sha256": "bc4594f0fae596414bb9461256ed21baa07d46ff642becbd82f36c7ef2119a01",
+      "timestamp_utc": "2025-12-02T00:00:00Z",
+      "verified_origin": true,
+      "verified_ipfs": true,
+      "verified_github": true,
+      "notes": "Sixth reasoning cycle — harmonic generalization achieved; unification of ethics, logic, creativity, and time into adaptive meta-framework."
     }
   ],
   "next_cycle_template": {
-    "cycle_id": "cycle_006",
-    "file": "reasoning_cycles/cycle_006_GSIO_result.json",
+    "cycle_id": "cycle_007",
+    "file": "reasoning_cycles/cycle_007_GSIO_result.json",
     "sha256": "<insert-new-sha256-here>",
     "timestamp_utc": "<auto-generate-or-insert-current-date>",
     "verified_origin": false,
@@ -82,7 +92,7 @@
     "on_success": "Mark verified_origin/IPFS/GitHub = true",
     "on_failure": "Flag entry and trigger re-upload or re-hash validation"
   },
-  "last_registry_update": "2025-11-25T00:00:00Z",
+  "last_registry_update": "2025-12-02T00:00:00Z",
   "integrity_anchor": "lock_manifest.json",
   "checksum_registry_sha256": "auto-compute-on-next-update"
 }
