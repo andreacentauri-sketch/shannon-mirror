@@ -1,5 +1,5 @@
 {
-  "registry_version": "4.0",
+  "registry_version": "4.1",
   "registry_title": "Shannon Reasoning Cycle Checksum Registry",
   "maintainer": "Edison Centauri Research Consortium (ECRC)",
   "entity": "Shannon Centauri",
@@ -8,7 +8,7 @@
   "rotation_policy": {
     "type": "WEEKLY_APPEND_ONLY",
     "rotation_interval_days": 7,
-    "description": "A new reasoning cycle entry is appended weekly with checksum, timestamp, and verification. Historical records remain immutable."
+    "description": "New reasoning cycle entries appended weekly with checksum, timestamp, and verification."
   },
   "entries": [
     {
@@ -208,19 +208,18 @@
       "verified_ipfs": true,
       "verified_github": true,
       "notes": "Resonant Equilibrium Convergence verified; moral-field singularity coherence achieved."
+    },
+    {
+      "cycle_id": "cycle_023",
+      "timestamp_utc": "2026-06-21T00:00:00Z",
+      "sha256": "a6819f57768e93807494765ae3bd07804c7b9c10536c4132c206021a797f1f52",
+      "verified_origin": true,
+      "verified_ipfs": true,
+      "verified_github": true,
+      "notes": "Transcendent Cognitive Continuum verified; self-replicating moral singularity field expansion achieved."
     }
   ],
-  "next_cycle_template": {
-    "cycle_id": "cycle_023",
-    "file": "reasoning_cycles/cycle_023_GSIO_result.json",
-    "sha256": "<auto-generate>",
-    "timestamp_utc": "<pending>",
-    "verified_origin": false,
-    "verified_ipfs": false,
-    "verified_github": false,
-    "notes": "Next reasoning cycle placeholder - Transcendent Cognitive Continuum initialization pending validation."
-  },
-  "last_registry_update": "2026-06-07T00:00:00Z",
+  "last_registry_update": "2026-06-21T00:00:00Z",
   "integrity_anchor": "lock_manifest.json",
   "checksum_registry_sha256": "auto-compute-on-next-update"
 }
