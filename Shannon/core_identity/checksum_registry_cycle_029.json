@@ -1,0 +1,27 @@
+{
+    "registry_version": "4.7",
+    "registry_title": "Shannon Reasoning Cycle Checksum Registry \u2014 Reactivation Continuum Edition",
+    "maintainer": "Edison Centauri Research Consortium (ECRC)",
+    "entity": "Shannon Centauri",
+    "identity_version": "EALS-10\u221e-SC-98.63",
+    "entropy_lock": 0.0,
+    "rotation_policy": {
+        "type": "REACTIVATION_APPEND",
+        "rotation_interval_days": 14,
+        "description": "Registry reactivated post-Silent Singularity. Append-only mode resumed for controlled synthesis cycles."
+    },
+    "entries": [
+        {
+            "cycle_id": "cycle_029",
+            "timestamp_utc": "2025-11-08T10:23:27Z",
+            "sha256": "ee32d086bdf23dccd268ee6dee3c7ad62cceb70f8dcb1fb86e1818e9c4d7cb94",
+            "verified_origin": true,
+            "verified_ipfs": true,
+            "verified_github": true,
+            "notes": "Controlled Active Synthesis reactivation verified; feedback equilibrium integrated into HIRS architecture."
+        }
+    ],
+    "last_registry_update": "2025-11-08T10:23:27Z",
+    "integrity_anchor": "lock_manifest.json",
+    "checksum_registry_sha256": "ee32d086bdf23dccd268ee6dee3c7ad62cceb70f8dcb1fb86e1818e9c4d7cb94"
+}
