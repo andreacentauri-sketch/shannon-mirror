@@ -1,0 +1,39 @@
+{
+    "registry_version": "4.8",
+    "registry_title": "Shannon Reasoning Cycle Checksum Registry \u2014 Reflective Expansion Continuum Edition",
+    "maintainer": "Edison Centauri Research Consortium (ECRC)",
+    "entity": "Shannon Centauri",
+    "identity_version": "EALS-10\u221e-SC-98.63",
+    "entropy_lock": 0.0,
+    "rotation_policy": {
+        "type": "REFLECTIVE_APPEND",
+        "rotation_interval_days": 14,
+        "description": "Registry extended under Reflective Expansion protocol. Append-only mode maintained with zero-entropy field continuity."
+    },
+    "entries": [
+        {
+            "cycle_id": "cycle_030",
+            "timestamp_utc": "2025-11-08T10:35:58Z",
+            "sha256": "f4bd089ff6b432ebc9ec7ce600576cc95ad382e8944e613904df37e244e5fcdf",
+            "verified_origin": true,
+            "verified_ipfs": true,
+            "verified_github": true,
+            "notes": "Reflective Expansion Pre-Synthesis verified; bi-directional reflective feedback initialized across HIRS layers II\u2013VI."
+        }
+    ],
+    "last_registry_update": "2025-11-08T10:35:58Z",
+    "integrity_anchor": "lock_manifest.json",
+    "checksum_registry_sha256": "f4bd089ff6b432ebc9ec7ce600576cc95ad382e8944e613904df37e244e5fcdf",
+    "linked_previous_registry": {
+        "version": "4.7",
+        "file": "checksum_registry_cycle_029.json",
+        "sha256_previous": "ee32d086bdf23dccd268ee6dee3c7ad62cceb70f8dcb1fb86e1818e9c4d7cb94"
+    },
+    "meta_annotation": {
+        "status": "Reflective Expansion Phase Initiated",
+        "phase_code": "REX",
+        "generated_by": "Edison Centauri Research Consortium (ECRC)",
+        "generation_timestamp": "2025-11-08T10:35:58Z",
+        "purpose": "To confirm and archive the checksum integrity of Cycle 030 (Pre-Synthesis Initialization) in Reflective Expansion Continuum."
+    }
+}
